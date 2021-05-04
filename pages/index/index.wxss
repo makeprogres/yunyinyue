@@ -1,0 +1,76 @@
+
+.box .banner{
+  width: 100%;
+  height: 300rpx;
+}
+.banner image{
+  width: 100%;
+  height: 100%;
+}
+
+.iconBox{display: flex;}
+
+.navItem{
+  display: flex;
+  flex-direction: column;
+  flex:20%;
+  align-items: center;
+}
+
+.navItem .iconfont{
+  font-size: 50rpx;
+  width: 100rpx;
+  height: 100rpx; 
+  border-radius: 50%;
+  background: rgb(255, 19, 19);
+  text-align: center;
+  line-height: 100rpx;
+  color: #fff;
+  margin: 20rpx;
+}
+.navItem text{
+  font-size: 26rpx;
+}
+
+.singBox{
+  padding: 20rpx;
+}
+
+.header .title{
+  font-size: 30rpx;
+  color: #666;
+  line-height: 60rpx;
+  padding-bottom: 20rpx;
+}
+
+.singBox .many{
+  float: right;
+  font-size: 24rpx;
+  padding: 10rpx 20rpx;
+  border: 1rpx solid #333;
+  border-radius: 30rpx;
+}
+
+.items{
+  display: flex;
+}
+
+.items .item{
+  width: 200rpx;
+  margin-right: 20rpx;
+}
+
+.items .item image{
+  width: 200rpx;
+  height: 200rpx;
+
+  border-radius: 10rpx;
+}
+
+.items text{
+  font-size: 26rpx;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
